@@ -14,7 +14,7 @@ function Table() {
 
 
     const fetchData = () => {
-        axios.get("http://localhost:5000/product")
+        axios.get("https://jmr-backend.onrender.com/product")
             .then((data) => {
                 console.log(data);
                 setData(data.data);

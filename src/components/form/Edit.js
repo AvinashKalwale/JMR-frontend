@@ -7,7 +7,7 @@ export default function Edit() {
     const navigate = useNavigate();
     const [data, setData] = useState({});
     const fetchData = () => {
-        fetch(`http://localhost:5000/product/${_id}`)
+        fetch(`https://jmr-backend.onrender.com/product/${_id}`)
             .then((response) => response.json())
             .then((data) => {
                 setData({
