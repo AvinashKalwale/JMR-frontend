@@ -39,6 +39,7 @@ export default function FormPage() {
     return (
         <div id="create-container">
             <Header/>
+            
            <div>
            <h2>New Product</h2>
             <form className="create-container" onSubmit={submitForm}>

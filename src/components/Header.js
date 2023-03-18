@@ -8,7 +8,7 @@ function Header() {
   let {email} = useParams()
   let [data, setData]=useState({})
   const fetchData = () => {
-    fetch(`https://pleximus-backend.onrender.com/login/${email}`)
+    fetch(`http://localhost:5000/login/${email}`)
         .then((response) => response.json())
         .then((data) => {
             setData(data[0]);
@@ -17,7 +17,7 @@ function Header() {
 useEffect(() => {
     fetchData();
 }, []);
-  let userid="sourabh@123.com  "
+
   return (
     <header className='header'>
       <div>Products</div>
