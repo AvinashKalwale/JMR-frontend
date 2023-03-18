@@ -19,7 +19,7 @@ export default function FormPage() {
     const submitForm = (e) => {
         e.preventDefault()
         if(data.product_name, data.product_description, data.product_price){
-            axios.post('http://localhost:5000/product', {
+            axios.post('https://pleximus-backend.onrender.com/product', {
             product_name: data.product_name,
             product_description: data.product_description,
             product_price: data.product_price,
@@ -39,7 +39,6 @@ export default function FormPage() {
     return (
         <div id="create-container">
             <Header/>
-            
            <div>
            <h2>New Product</h2>
             <form className="create-container" onSubmit={submitForm}>

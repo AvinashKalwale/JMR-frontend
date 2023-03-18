@@ -5,7 +5,7 @@
 }
 .main-boxing{
     width: 564px;
-    height: 280px;
+    height: 250px;
     background: #ffffff;
     border: 1px solid #dee1e6;
     margin: 0 29%;
@@ -23,7 +23,7 @@
     height: 40px;
     padding-left: 15px;
     border-radius: 10px;
-    /* margin: 10px 10%; */
+    margin: 10px 10%;
     border: 1px solid #E2E2E2;
    
 }
