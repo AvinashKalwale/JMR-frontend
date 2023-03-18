@@ -13,7 +13,7 @@ function SignUp() {
 
     function postData() {
 
-        fetch("https://jmr-backend.onrender.com/signUp", {
+        fetch("https://justmyroots.onrender.com/signUp", {
             method: "POST",
             body: JSON.stringify({
                 email, password

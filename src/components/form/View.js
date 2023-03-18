@@ -11,7 +11,7 @@ function View() {
 
 
   const fetchData = async (_id) => {
-    let response = await axios.get(`https://jmr-backend.onrender.com/product/${_id}`)
+    let response = await axios.get(`https://justmyroots.onrender.com/product/${_id}`)
     console.log(response);
 
     setData(response.data[0])

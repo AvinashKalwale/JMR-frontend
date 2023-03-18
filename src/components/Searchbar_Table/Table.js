@@ -14,7 +14,7 @@ function Table() {
 
 
     const fetchData = () => {
-        axios.get("https://jmr-backend.onrender.com/product")
+        axios.get("https://justmyroots.onrender.com/product")
             .then((data) => {
                 console.log(data);
                 setData(data.data);

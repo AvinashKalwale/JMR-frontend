@@ -8,7 +8,7 @@ function Header() {
   let {email} = useParams()
   let [data, setData]=useState({})
   const fetchData = () => {
-    fetch(`https://jmr-backend.onrender.com/login/${email}`)
+    fetch(`https://justmyroots.onrender.com/login/${email}`)
         .then((response) => response.json())
         .then((data) => {
             setData(data[0]);

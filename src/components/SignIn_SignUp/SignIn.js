@@ -9,7 +9,7 @@ function SignIn() {
   let [password, setPassword] = useState();
   function postData() {
 
-    fetch("https://jmr-backend.onrender.com/login", {
+    fetch("https://justmyroots.onrender.com/login", {
       method: "POST",
       body: JSON.stringify({
         email, password
