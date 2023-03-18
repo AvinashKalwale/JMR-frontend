@@ -1,13 +1,13 @@
 import React from 'react'
 import { Routes, Route } from "react-router-dom";
-import Error from './componentss/Error';
-import Header from './componentss/Header';
-import FormPage from './componentss/form/FormPage';
-import View from './componentss/form/View';
-import DisplayData from './componentss/Searchbar_Table/DisplayData';
-import Edit from './componentss/form/Edit';
-import SignIn from "./componentss/SignIn_SignUp/SignIn"
-import SignUp from "./componentss/SignIn_SignUp/SignUp"
+import Error from './components/Error';
+import Header from './components/Header';
+import FormPage from './components/form/FormPage';
+import View from './components/form/View';
+import DisplayData from './components/Searchbar_Table/DisplayData';
+import Edit from './components/form/Edit';
+import SignIn from "./components/SignIn_SignUp/SignIn"
+import SignUp from "./components/SignIn_SignUp/SignUp"
 function App() {
   return (
     <div>

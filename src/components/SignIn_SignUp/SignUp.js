@@ -13,7 +13,7 @@ function SignUp() {
 
     function postData() {
 
-        fetch("https://pleximus-backend.onrender.com/signUp", {
+        fetch("http://localhost:5000/signUp", {
             method: "POST",
             body: JSON.stringify({
                 email, password

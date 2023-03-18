@@ -14,7 +14,7 @@ function Table() {
 
 
     const fetchData = () => {
-        axios.get("https://pleximus-backend.onrender.com/product")
+        axios.get("http://localhost:5000/product")
             .then((data) => {
                 console.log(data);
                 setData(data.data);
